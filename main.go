@@ -4,14 +4,16 @@ import (
 	"fmt"
 )
 
+var a, b int = 5, 4
+
 func main() {
-	fmt.Println("Exercices 1")
+	fmt.Println("Exercice 1")
 	fmt.Println("Hello World!")
-	fmt.Println("Exercices 2")
-	fmt.Println(" 5 + 4 is", sum(5, 4))
+	fmt.Println("Exercice 2")
+	fmt.Println(a, "+", b, "is", sum(a, b))
 }
 
-func sum(a int, b int) int {
+func sum(a, b int) int {
 	result := a + b
 	return result
 }
