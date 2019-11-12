@@ -12,6 +12,7 @@ func main() {
 	fmt.Println("Hello World!")
 	fmt.Println("Exercice 2")
 	fmt.Println(a, "+", b, "is", sum(a, b))
+	fmt.Println("Exercice 3")
 	for i := 1; i <= 10; i++ {
 		fmt.Println(i)
 	}
